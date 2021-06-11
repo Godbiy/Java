@@ -1,12 +1,9 @@
-package LB2;
-import javax.imageio.IIOException;
+
 import java.io.*;
-import java.lang.reflect.Array;
-import java.util.List;
 import java.util.Scanner;
 import java.util.ArrayList;
 
-public class Program {
+public class Program2 {
     static Scanner in = new Scanner(System.in);
 
     public static void main(String[] args)
@@ -84,6 +81,4 @@ public class Program {
         System.out.println(arrayList);
         scanner.close();
     }
-    
-    
 }

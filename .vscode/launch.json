@@ -6,16 +6,31 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Current File",
+            "name": "Launch App2",
             "request": "launch",
-            "mainClass": "${file}"
+            "vmArgs": "--module-path /Users/Toyota/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App2",
+            "projectName": "Java_ce2dd367"
         },
         {
             "type": "java",
-            "name": "Launch App",
+            "name": "Launch Program2",
             "request": "launch",
-            "vmArgs": "--module-path /Users/Toyota/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml", 
-            "mainClass": "App",
+            "mainClass": "Program2",
+            "projectName": "Java_ce2dd367"
+        },
+        {
+            "type": "java",
+            "name": "Launch Pg",
+            "request": "launch",
+            "mainClass": "Pg",
+            "projectName": "Java_ce2dd367"
+        },
+        {
+            "type": "java",
+            "name": "Launch Lab2",
+            "request": "launch",
+            "mainClass": "Lab2",
             "projectName": "Java_ce2dd367"
         },
         {
@@ -27,9 +42,24 @@
         },
         {
             "type": "java",
-            "name": "Launch Program(1)",
+            "name": "Launch Progaram",
             "request": "launch",
-            "mainClass": "Program"
+            "mainClass": "Progaram",
+            "projectName": "Java_ce2dd367"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "vmArgs": "--module-path /Users/Toyota/Downloads/javafx-sdk-11.0.2/lib --add-modules javafx.controls,javafx.fxml",
+            "mainClass": "App",
+            "projectName": "Java_ce2dd367"
         }
     ]
 }

@@ -11,7 +11,10 @@
         "c:\\Users\\Toyota\\Downloads\\javafx-sdk-11.0.2\\lib\\javafx-swt.jar"
     ],
     "java.project.sourcePaths": [
-        "LB3",
-        "LB6/LB6/src"
+        "NewLB2",
+        "LB6/LB6/src",
+        "LB2",
+        "LB1",
+        "Praktik/src"
     ]
 }
